@@ -1,6 +1,6 @@
 # SEAssociationView
 - Like a linkage menu, using two UITableView / 大概是个联动菜单吧, 使用两个UITableView制作
-- you can custom cell's icon/background for both normal and heighted / 可以自定义cell的图片背景图
+- you can custom cell's icon/background for both normal and selected state / 可以自定义cell不同状态的图片背景图
 - also you can use custom cell created by nib / 也可以自定义cell
 - be happy :)
 
