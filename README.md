@@ -20,17 +20,15 @@ associationView.dataSource = self;
 ```objective-c
 #pragma mark - SEAssociationViewDataSource
 - (NSInteger)numberOfRowsInMainTable:(SEAssociationView *)associationView {
-    return self.categories.count;
+    return self.dataArray.count
 }
 
 - (NSString *)associationView:(SEAssociationView *)associationView titleInMainTableAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *title = [self.categories[indexPath.row] objectForKey:@"name"];
-    return title;
+    return self.titles[indexPath.row];
 }
 
 - (NSArray *)associationView:(SEAssociationView *)associationView subTitlesForRowInMainTableAtIndexPath:(NSIndexPath *)indexPath {
-    NSArray *subData = [self.categories[indexPath.row] objectForKey:@"subcategories"];
-    return subData;
+    return @[@"title1", @"title2"];
 }
 ```
 
@@ -51,17 +49,15 @@ associationView.dataSource = self;
 ```objective-c
 #pragma mark - SEAssociationViewDataSource
 - (NSInteger)numberOfRowsInMainTable:(SEAssociationView *)associationView {
-    return self.categories.count;
+    return self.dataArray.count
 }
 
 - (NSString *)associationView:(SEAssociationView *)associationView titleInMainTableAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *title = [self.categories[indexPath.row] objectForKey:@"name"];
-    return title;
+    return self.titles[indexPath.row];
 }
 
 - (NSArray *)associationView:(SEAssociationView *)associationView subTitlesForRowInMainTableAtIndexPath:(NSIndexPath *)indexPath {
-    NSArray *subData = [self.categories[indexPath.row] objectForKey:@"subcategories"];
-    return subData;
+    return @[@"title1", @"title2"];
 }
 ```
 
