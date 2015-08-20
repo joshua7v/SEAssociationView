@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		424956531B84D165009846FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 424956521B84D165009846FA /* main.m */; };
+		424956561B84D165009846FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 424956551B84D165009846FA /* AppDelegate.m */; };
+		424956591B84D165009846FA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424956581B84D165009846FA /* TestViewController.m */; };
+		4249565C1B84D165009846FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4249565A1B84D165009846FA /* Main.storyboard */; };
+		4249565E1B84D165009846FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4249565D1B84D165009846FA /* Images.xcassets */; };
+		424956611B84D165009846FA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4249565F1B84D165009846FA /* LaunchScreen.xib */; };
+		4249566D1B84D165009846FA /* Example_SEAssociationMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4249566C1B84D165009846FA /* Example_SEAssociationMenuTests.m */; };
+		4249568F1B84D3C0009846FA /* SEAssociationMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 424956891B84D3C0009846FA /* SEAssociationMainCell.m */; };
+		424956901B84D3C0009846FA /* SEAssociationSubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4249568B1B84D3C0009846FA /* SEAssociationSubCell.m */; };
+		424956911B84D3C0009846FA /* SEAssociationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4249568D1B84D3C0009846FA /* SEAssociationView.m */; };
+		424956921B84D3C0009846FA /* SEAssociationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4249568E1B84D3C0009846FA /* SEAssociationView.xib */; };
+		424956941B84D4B9009846FA /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 424956931B84D4B9009846FA /* categories.plist */; };
+		4249569A1B84D945009846FA /* UIImage+SE.m in Sources */ = {isa = PBXBuildFile; fileRef = 424956991B84D945009846FA /* UIImage+SE.m */; };
+		4249569E1B856B53009846FA /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4249569C1B856B53009846FA /* TestTableViewCell.m */; };
+		424956A21B85A06F009846FA /* TestCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424956A11B85A06F009846FA /* TestCityViewController.m */; };
+		424956A61B85A202009846FA /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 424956A51B85A202009846FA /* cities.plist */; };
+		424956A91B85B57E009846FA /* TestMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 424956A81B85B57E009846FA /* TestMenuViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		424956671B84D165009846FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 424956451B84D165009846FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4249564C1B84D165009846FA;
+			remoteInfo = "Example-SEAssociationMenu";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4249564D1B84D165009846FA /* Example-SEAssociationMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-SEAssociationMenu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424956511B84D165009846FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424956521B84D165009846FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		424956541B84D165009846FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		424956551B84D165009846FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		424956571B84D165009846FA /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		424956581B84D165009846FA /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		4249565B1B84D165009846FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4249565D1B84D165009846FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		424956601B84D165009846FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		424956661B84D165009846FA /* Example-SEAssociationMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Example-SEAssociationMenuTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4249566B1B84D165009846FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4249566C1B84D165009846FA /* Example_SEAssociationMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example_SEAssociationMenuTests.m; sourceTree = "<group>"; };
+		424956881B84D3C0009846FA /* SEAssociationMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAssociationMainCell.h; sourceTree = "<group>"; };
+		424956891B84D3C0009846FA /* SEAssociationMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAssociationMainCell.m; sourceTree = "<group>"; };
+		4249568A1B84D3C0009846FA /* SEAssociationSubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAssociationSubCell.h; sourceTree = "<group>"; };
+		4249568B1B84D3C0009846FA /* SEAssociationSubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAssociationSubCell.m; sourceTree = "<group>"; };
+		4249568C1B84D3C0009846FA /* SEAssociationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEAssociationView.h; sourceTree = "<group>"; };
+		4249568D1B84D3C0009846FA /* SEAssociationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEAssociationView.m; sourceTree = "<group>"; };
+		4249568E1B84D3C0009846FA /* SEAssociationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEAssociationView.xib; sourceTree = "<group>"; };
+		424956931B84D4B9009846FA /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		424956981B84D945009846FA /* UIImage+SE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SE.h"; sourceTree = "<group>"; };
+		424956991B84D945009846FA /* UIImage+SE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SE.m"; sourceTree = "<group>"; };
+		4249569B1B856B53009846FA /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		4249569C1B856B53009846FA /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		424956A01B85A06F009846FA /* TestCityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestCityViewController.h; sourceTree = "<group>"; };
+		424956A11B85A06F009846FA /* TestCityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestCityViewController.m; sourceTree = "<group>"; };
+		424956A51B85A202009846FA /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		424956A71B85B57E009846FA /* TestMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMenuViewController.h; sourceTree = "<group>"; };
+		424956A81B85B57E009846FA /* TestMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMenuViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4249564A1B84D165009846FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424956631B84D165009846FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		424956441B84D165009846FA = {
+			isa = PBXGroup;
+			children = (
+				4249564F1B84D165009846FA /* Example-SEAssociationMenu */,
+				424956691B84D165009846FA /* Example-SEAssociationMenuTests */,
+				4249564E1B84D165009846FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4249564E1B84D165009846FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4249564D1B84D165009846FA /* Example-SEAssociationMenu.app */,
+				424956661B84D165009846FA /* Example-SEAssociationMenuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4249564F1B84D165009846FA /* Example-SEAssociationMenu */ = {
+			isa = PBXGroup;
+			children = (
+				424956871B84D3C0009846FA /* SEAssociationView */,
+				42BA6B611B85F50F00ECC769 /* Delegate */,
+				42BA6B601B85F50600ECC769 /* Views */,
+				42BA6B5F1B85F4FA00ECC769 /* Controllers */,
+				42BA6B621B85F51700ECC769 /* Other */,
+				424956501B84D165009846FA /* Supporting Files */,
+			);
+			path = "Example-SEAssociationMenu";
+			sourceTree = "<group>";
+		};
+		424956501B84D165009846FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				424956981B84D945009846FA /* UIImage+SE.h */,
+				424956991B84D945009846FA /* UIImage+SE.m */,
+				424956A51B85A202009846FA /* cities.plist */,
+				424956931B84D4B9009846FA /* categories.plist */,
+				424956511B84D165009846FA /* Info.plist */,
+				424956521B84D165009846FA /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		424956691B84D165009846FA /* Example-SEAssociationMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				4249566C1B84D165009846FA /* Example_SEAssociationMenuTests.m */,
+				4249566A1B84D165009846FA /* Supporting Files */,
+			);
+			path = "Example-SEAssociationMenuTests";
+			sourceTree = "<group>";
+		};
+		4249566A1B84D165009846FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4249566B1B84D165009846FA /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		424956871B84D3C0009846FA /* SEAssociationView */ = {
+			isa = PBXGroup;
+			children = (
+				424956881B84D3C0009846FA /* SEAssociationMainCell.h */,
+				424956891B84D3C0009846FA /* SEAssociationMainCell.m */,
+				4249568A1B84D3C0009846FA /* SEAssociationSubCell.h */,
+				4249568B1B84D3C0009846FA /* SEAssociationSubCell.m */,
+				4249568C1B84D3C0009846FA /* SEAssociationView.h */,
+				4249568D1B84D3C0009846FA /* SEAssociationView.m */,
+				4249568E1B84D3C0009846FA /* SEAssociationView.xib */,
+			);
+			path = SEAssociationView;
+			sourceTree = "<group>";
+		};
+		42BA6B5F1B85F4FA00ECC769 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				424956571B84D165009846FA /* TestViewController.h */,
+				424956581B84D165009846FA /* TestViewController.m */,
+				424956A01B85A06F009846FA /* TestCityViewController.h */,
+				424956A11B85A06F009846FA /* TestCityViewController.m */,
+				424956A71B85B57E009846FA /* TestMenuViewController.h */,
+				424956A81B85B57E009846FA /* TestMenuViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		42BA6B601B85F50600ECC769 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4249569B1B856B53009846FA /* TestTableViewCell.h */,
+				4249569C1B856B53009846FA /* TestTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42BA6B611B85F50F00ECC769 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				424956541B84D165009846FA /* AppDelegate.h */,
+				424956551B84D165009846FA /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		42BA6B621B85F51700ECC769 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4249565A1B84D165009846FA /* Main.storyboard */,
+				4249565D1B84D165009846FA /* Images.xcassets */,
+				4249565F1B84D165009846FA /* LaunchScreen.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4249564C1B84D165009846FA /* Example-SEAssociationMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424956701B84D165009846FA /* Build configuration list for PBXNativeTarget "Example-SEAssociationMenu" */;
+			buildPhases = (
+				424956491B84D165009846FA /* Sources */,
+				4249564A1B84D165009846FA /* Frameworks */,
+				4249564B1B84D165009846FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example-SEAssociationMenu";
+			productName = "Example-SEAssociationMenu";
+			productReference = 4249564D1B84D165009846FA /* Example-SEAssociationMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		424956651B84D165009846FA /* Example-SEAssociationMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 424956731B84D165009846FA /* Build configuration list for PBXNativeTarget "Example-SEAssociationMenuTests" */;
+			buildPhases = (
+				424956621B84D165009846FA /* Sources */,
+				424956631B84D165009846FA /* Frameworks */,
+				424956641B84D165009846FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424956681B84D165009846FA /* PBXTargetDependency */,
+			);
+			name = "Example-SEAssociationMenuTests";
+			productName = "Example-SEAssociationMenuTests";
+			productReference = 424956661B84D165009846FA /* Example-SEAssociationMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		424956451B84D165009846FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SigmaStudio;
+				TargetAttributes = {
+					4249564C1B84D165009846FA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					424956651B84D165009846FA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4249564C1B84D165009846FA;
+					};
+				};
+			};
+			buildConfigurationList = 424956481B84D165009846FA /* Build configuration list for PBXProject "Example-SEAssociationMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 424956441B84D165009846FA;
+			productRefGroup = 4249564E1B84D165009846FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4249564C1B84D165009846FA /* Example-SEAssociationMenu */,
+				424956651B84D165009846FA /* Example-SEAssociationMenuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4249564B1B84D165009846FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4249565C1B84D165009846FA /* Main.storyboard in Resources */,
+				424956611B84D165009846FA /* LaunchScreen.xib in Resources */,
+				424956921B84D3C0009846FA /* SEAssociationView.xib in Resources */,
+				424956A61B85A202009846FA /* cities.plist in Resources */,
+				424956941B84D4B9009846FA /* categories.plist in Resources */,
+				4249565E1B84D165009846FA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424956641B84D165009846FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		424956491B84D165009846FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4249568F1B84D3C0009846FA /* SEAssociationMainCell.m in Sources */,
+				424956A91B85B57E009846FA /* TestMenuViewController.m in Sources */,
+				4249569E1B856B53009846FA /* TestTableViewCell.m in Sources */,
+				424956591B84D165009846FA /* TestViewController.m in Sources */,
+				4249569A1B84D945009846FA /* UIImage+SE.m in Sources */,
+				424956911B84D3C0009846FA /* SEAssociationView.m in Sources */,
+				424956901B84D3C0009846FA /* SEAssociationSubCell.m in Sources */,
+				424956561B84D165009846FA /* AppDelegate.m in Sources */,
+				424956A21B85A06F009846FA /* TestCityViewController.m in Sources */,
+				424956531B84D165009846FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		424956621B84D165009846FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4249566D1B84D165009846FA /* Example_SEAssociationMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		424956681B84D165009846FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4249564C1B84D165009846FA /* Example-SEAssociationMenu */;
+			targetProxy = 424956671B84D165009846FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4249565A1B84D165009846FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4249565B1B84D165009846FA /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		4249565F1B84D165009846FA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				424956601B84D165009846FA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4249566E1B84D165009846FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4249566F1B84D165009846FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		424956711B84D165009846FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Example-SEAssociationMenu/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		424956721B84D165009846FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Example-SEAssociationMenu/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		424956741B84D165009846FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Example-SEAssociationMenuTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example-SEAssociationMenu.app/Example-SEAssociationMenu";
+			};
+			name = Debug;
+		};
+		424956751B84D165009846FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Example-SEAssociationMenuTests/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Example-SEAssociationMenu.app/Example-SEAssociationMenu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		424956481B84D165009846FA /* Build configuration list for PBXProject "Example-SEAssociationMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4249566E1B84D165009846FA /* Debug */,
+				4249566F1B84D165009846FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424956701B84D165009846FA /* Build configuration list for PBXNativeTarget "Example-SEAssociationMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424956711B84D165009846FA /* Debug */,
+				424956721B84D165009846FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		424956731B84D165009846FA /* Build configuration list for PBXNativeTarget "Example-SEAssociationMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				424956741B84D165009846FA /* Debug */,
+				424956751B84D165009846FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 424956451B84D165009846FA /* Project object */;
+}

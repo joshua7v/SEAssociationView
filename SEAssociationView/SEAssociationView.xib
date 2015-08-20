@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kun-xd-5mi" customClass="SEAssociationView">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="409"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="oqv-s7-Njt" userLabel="从表">
+                    <rect key="frame" x="200" y="0.0" width="200" height="409"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="kun-xd-5mi" id="BNr-DO-jeY"/>
+                        <outlet property="delegate" destination="kun-xd-5mi" id="Ebv-Up-GU2"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="0Dy-98-fmQ" userLabel="主表">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="409"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="kun-xd-5mi" id="reo-CA-jKU"/>
+                        <outlet property="delegate" destination="kun-xd-5mi" id="NFS-FG-UlW"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0Dy-98-fmQ" firstAttribute="trailing" secondItem="kun-xd-5mi" secondAttribute="trailing" multiplier="0.5" id="Ka3-rc-3zy"/>
+                <constraint firstAttribute="bottom" secondItem="0Dy-98-fmQ" secondAttribute="bottom" id="bI6-1l-fFF"/>
+                <constraint firstAttribute="bottom" secondItem="oqv-s7-Njt" secondAttribute="bottom" id="djY-Qt-df9"/>
+                <constraint firstItem="oqv-s7-Njt" firstAttribute="top" secondItem="kun-xd-5mi" secondAttribute="top" id="fIO-aA-VlE"/>
+                <constraint firstItem="0Dy-98-fmQ" firstAttribute="top" secondItem="kun-xd-5mi" secondAttribute="top" id="hA8-e1-2Ju"/>
+                <constraint firstItem="oqv-s7-Njt" firstAttribute="leading" secondItem="0Dy-98-fmQ" secondAttribute="trailing" id="nbY-AO-2UR"/>
+                <constraint firstAttribute="trailing" secondItem="oqv-s7-Njt" secondAttribute="trailing" id="qcj-SP-5tY"/>
+                <constraint firstItem="0Dy-98-fmQ" firstAttribute="leading" secondItem="kun-xd-5mi" secondAttribute="leading" id="xPi-2B-DIp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="mainTableView" destination="0Dy-98-fmQ" id="tV3-ZV-t5H"/>
+                <outlet property="subTableView" destination="oqv-s7-Njt" id="buj-au-xTw"/>
+                <outlet property="widthConstraint" destination="Ka3-rc-3zy" id="dCg-Df-MGD"/>
+            </connections>
+            <point key="canvasLocation" x="857" y="478.5"/>
+        </view>
+    </objects>
+</document>

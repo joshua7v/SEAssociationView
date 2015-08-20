@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>全部分类</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>分类01</string>
+		<key>subcategories</key>
+		<array>
+			<string>全部</string>
+			<string>子分类01</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>分类02</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>分类03</string>
+		<key>subcategories</key>
+		<array>
+			<string>全部</string>
+			<string>子分类01</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>分类04</string>
+		<key>subcategories</key>
+		<array>
+			<string>全部</string>
+			<string>子分类01</string>
+			<string>子分类02</string>
+			<string>子分类03</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>分类05</string>
+		<key>subcategories</key>
+		<array>
+			<string>全部</string>
+			<string>子分类01</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>分类06</string>
+		<key>subcategories</key>
+		<array>
+			<string>全部</string>
+			<string>子分类01</string>
+			<string>子分类02</string>
+			<string>子分类03</string>
+			<string>子分类04</string>
+		</array>
+	</dict>
+</array>
+</plist>
