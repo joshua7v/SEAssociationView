@@ -113,12 +113,12 @@
         self.selectedMainSection = indexPath.section;
         [self.subTableView reloadData];
         
-        if ([self.delegate respondsToSelector:@selector(associationView:didSelectRowInMainTable:)]) {
-            [self.delegate associationView:self didSelectRowInMainTable:indexPath.row];
+        if ([self.delegate respondsToSelector:@selector(associationView:didSelectRowInMainTableAtIndexPath:)]) {
+            [self.delegate associationView:self didSelectRowInMainTableAtIndexPath:indexPath];
         }
     } else {
-        if ([self.delegate respondsToSelector:@selector(associationView:didSelectRowInSubTable:inMainTable:)]) {
-            [self.delegate associationView:self didSelectRowInSubTable:indexPath.row inMainTable:self.selectedMainRow];
+        if ([self.delegate respondsToSelector:@selector(associationView:didSelectRowInSubTableAtIndexPath:inMainTableAtIndexPath:)]) {
+            [self.delegate associationView:self didSelectRowInSubTableAtIndexPath:indexPath inMainTableAtIndexPath:[NSIndexPath indexPathForRow:self.selectedMainRow inSection:self.selectedMainSection]];
         }
     }
 }

@@ -83,10 +83,21 @@
 @protocol SEAssociationViewDelegate <NSObject>
 
 @optional
-- (void)associationView:(SEAssociationView *)associationView didSelectRowInMainTable:(NSInteger)row;
-- (void)associationView:(SEAssociationView *)associationView didSelectRowInSubTable:(NSInteger)subrow inMainTable:(NSInteger)mainRow;
-
+/**
+ *  Called after the user changes the selection
+ */
+- (void)associationView:(SEAssociationView *)associationView didSelectRowInMainTableAtIndexPath:(NSIndexPath *)indexPath;
+/**
+ *  Called after the user changes the selection
+ */
+- (void)associationView:(SEAssociationView *)associationView didSelectRowInSubTableAtIndexPath:(NSIndexPath *)sIndexPath inMainTableAtIndexPath:(NSIndexPath *)mIndexPath;
+/**
+ *  Variable height support
+ */
 - (CGFloat)associationView:(SEAssociationView *)associationView heightForRowInMainTableAtIndexPath:(NSIndexPath *)indexPath;
+/**
+ *  Variable height support
+ */
 - (CGFloat)associationView:(SEAssociationView *)associationView heightForRowInSubTableAtIndexPath:(NSIndexPath *)indexPath;
 @end
 
